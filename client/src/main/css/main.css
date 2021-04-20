@@ -1,0 +1,305 @@
+.main_container {
+  width: 100%;
+  height: 100%;
+}
+
+.main_container .main_title_box {
+  width: 70%;
+  margin: 50px auto 20px;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.main_container .main_title_box h3 {
+  margin: 20px 0;
+  font-size: 30px;
+  color: #444444;
+  letter-spacing: -1px;
+}
+
+.main_container .main_title_box p {
+  font-size: 16px;
+  color: #444444;
+  letter-spacing: -1px;
+  margin: 10px 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+}
+
+.main_container .main_content_box {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+  display: inline-block;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.main_container .main_content_box ul {
+  width: 100%;
+  height: auto;
+}
+
+.main_container .main_content_box ul li {
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+.main_container .main_content_box ul li img {
+  width: 50px;
+  margin: 20px 0;
+}
+
+.main_container .main_content_box ul li h4 {
+  font-size: 28px;
+}
+
+.main_container .main_content_box ul li p {
+  width: 90%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 14px;
+  color: #444444;
+}
+
+.main_container .git_container {
+  width: 100%;
+  height: 280px;
+  background: url("../img/git_banner.png") no-repeat center;
+  background-size: 100%;
+  margin: 50px 0;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  position: relative;
+}
+
+.main_container .git_container .git_box {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main_container .git_container .git_box h3 {
+  padding: 40px 0 20px;
+  font-size: 40px;
+}
+
+.main_container .git_container .git_box p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main_container .git_container .git_box a {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background: #3b30ff;
+  background: -webkit-gradient(linear, left top, right top, from(#3b30ff), color-stop(0%, #2020a3), to(#00d4ff));
+  background: linear-gradient(90deg, #3b30ff 0%, #2020a3 0%, #00d4ff 100%);
+  border-radius: 30px;
+  color: white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.main_container .git_container .git_box a:hover {
+  background: white;
+  color: #444444;
+}
+
+.main_container .skils_list {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin: 0 0 50px 0;
+}
+
+.main_container .skils_list .skils_box {
+  width: 70%;
+  height: 100%;
+  margin: 40px auto 60px;
+}
+
+.main_container .skils_list .skils_box .left_skils {
+  width: 20%;
+  float: left;
+  padding: 0 0 30px 0;
+}
+
+.main_container .skils_list .skils_box .left_skils img {
+  width: 35px;
+  margin: 5px;
+}
+
+.main_container .skils_list .skils_box .right_skils {
+  width: 80%;
+  float: left;
+  text-align: right;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+}
+
+.main_container .skils_list .skils_box .right_skils p {
+  width: 54.4%;
+  float: right;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+@media (max-width: 1150px) {
+  .main_container .git_container .git_box p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .main_container .git_container {
+    width: 100%;
+    height: 350px;
+    background: url("../img/git_banner.png") no-repeat center;
+    background-size: 100% 100%;
+  }
+  .main_container .git_container .git_box p {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 970px) {
+  .main_container .main_title_box {
+    width: 100%;
+  }
+  .main_container .main_content_box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 810px) {
+  .main_container .skils_list {
+    width: 100%;
+    height: auto;
+  }
+  .main_container .skils_list .skils_box {
+    width: 90%;
+    margin: 40px auto 60px;
+  }
+  .main_container .skils_list .skils_box .left_skils {
+    width: 20%;
+    float: left;
+    padding: 0 0 30px 0;
+  }
+  .main_container .skils_list .skils_box .left_skils img {
+    width: 35px;
+    margin: 5px;
+  }
+  .main_container .skils_list .skils_box .right_skils {
+    width: 80%;
+    float: left;
+    text-align: right;
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+  }
+  .main_container .skils_list .skils_box .right_skils p {
+    width: 70%;
+    float: right;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .main_container .main_title_box {
+    width: 100%;
+  }
+  .main_container .main_title_box h3 {
+    margin: 20px 0;
+    font-size: 26px;
+    color: #444444;
+    letter-spacing: -1px;
+  }
+  .main_container .main_title_box p {
+    font-size: 14px;
+    color: #444444;
+    letter-spacing: -1px;
+    margin: 10px 0;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+  }
+  .main_container .main_content_box {
+    width: 100%;
+  }
+  .main_container .main_content_box ul {
+    width: 100%;
+    height: auto;
+  }
+  .main_container .main_content_box ul li {
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 515px) {
+  .main_container .skils_list {
+    width: 100%;
+    height: auto;
+  }
+  .main_container .skils_list .skils_box {
+    width: 100%;
+    margin: 40px auto 60px;
+  }
+  .main_container .skils_list .skils_box .left_skils {
+    width: 30%;
+    float: left;
+    padding: 0 0 30px 0;
+  }
+  .main_container .skils_list .skils_box .left_skils img {
+    width: 30px;
+    margin: 5px;
+  }
+  .main_container .skils_list .skils_box .right_skils {
+    width: 70%;
+    float: right;
+    text-align: right;
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+  }
+  .main_container .skils_list .skils_box .right_skils h3 {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  .main_container .skils_list .skils_box .right_skils p {
+    width: 70%;
+    float: right;
+    font-size: 11px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main_container .git_container {
+    width: 100%;
+    height: 350px;
+    background: url("../img/git_banner.png") no-repeat center;
+    background-size: 100% 100%;
+  }
+  .main_container .git_container .git_box {
+    width: 90%;
+  }
+  .main_container .git_container .git_box p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 285px) {
+  .main_container {
+    width: 280px;
+  }
+}

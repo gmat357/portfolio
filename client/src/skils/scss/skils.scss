@@ -1,0 +1,56 @@
+.skils_container {
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+  .skils_box {
+    width: 40%;
+    height: 100%;
+    border: 1px solid blue;
+    margin: 0 auto;
+    ul {
+      width: 100%;
+      height: auto;
+      li {
+        width: 25%;
+        margin: 15px;
+        display: inline-block;
+        .graph_bar {
+          position: relative;
+          display: inline-block;
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          transition: 0.3s;
+          .graph_bg {
+            background: #fff;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 200px;
+            font-size: 30px;
+            transform: translate(-50%, -50%);
+            img {
+              width: 40px;
+              position: absolute;
+              top: 25%;
+              left: 36%;
+            }
+            h3 {
+              font-size: 22px;
+            }
+          }
+        }
+        h5 {
+          float: left;
+          font-size: 25px;
+          margin: 7px 0;
+        }
+      }
+    }
+  }
+} // skils_container

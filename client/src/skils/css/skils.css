@@ -1,0 +1,66 @@
+.skils_container {
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+}
+
+.skils_container .skils_box {
+  width: 40%;
+  height: 100%;
+  border: 1px solid blue;
+  margin: 0 auto;
+}
+
+.skils_container .skils_box ul {
+  width: 100%;
+  height: auto;
+}
+
+.skils_container .skils_box ul li {
+  width: 25%;
+  margin: 15px;
+  display: inline-block;
+}
+
+.skils_container .skils_box ul li .graph_bar {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.skils_container .skils_box ul li .graph_bar .graph_bg {
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.skils_container .skils_box ul li .graph_bar .graph_bg img {
+  width: 40px;
+  position: absolute;
+  top: 25%;
+  left: 36%;
+}
+
+.skils_container .skils_box ul li .graph_bar .graph_bg h3 {
+  font-size: 22px;
+}
+
+.skils_container .skils_box ul li h5 {
+  float: left;
+  font-size: 25px;
+  margin: 7px 0;
+}

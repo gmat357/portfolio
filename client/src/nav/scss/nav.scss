@@ -1,0 +1,98 @@
+@import "../../variable/variable.scss";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+// 메뉴 오버시 폰트 크기 배율
+$menuHoverSize: 1.2;
+
+.nav_container {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  border-bottom: 1px solid #cccccc;
+  box-shadow: #888888 0 0 10px;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+  .nav_box {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    .menu_box {
+      height: 100%;
+      float: right;
+      ul {
+        height: 100%;
+        text-align: right;
+        li {
+          display: inline-block;
+          margin: 24px;
+          a {
+            color: #444444;
+            font-size: 14px;
+            transition-duration: 0.2s;
+            display: block;
+            &:hover {
+              color: #438be9;
+              -webkit-transform: scale($menuHoverSize);
+              -moz-transform: scale($menuHoverSize);
+              -ms-transform: scale($menuHoverSize);
+              -o-transform: scale($menuHoverSize);
+              transform: scale($menuHoverSize);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav_container {
+    width: 100%;
+    .nav_box {
+      text-align: center;
+      .menu_box {
+        height: 100%;
+        float: unset;
+        display: inline-block;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 766px) {
+  .nav_container {
+    width: 100%;
+    .nav_box {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .nav_container {
+    .nav_box {
+      .menu_box {
+        ul {
+          li {
+            margin: 24px 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 280px) {
+  .nav_container {
+    width: 278px;
+  }
+}
