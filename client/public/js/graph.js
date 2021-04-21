@@ -7,7 +7,12 @@ $(window).ready(function(){
     var persent = Number(graphChild.text().replace("%",""));
     var color = graphChild.attr("value");
     draw(persent,graph_bar.eq(index),color);
+    $(this).on("mouseenter",function(){
+      draw(persent,graph_bar.eq(index),color);
+    });
+    $(this).on("mouseout", function(){
 
+    })
   });
 
 });

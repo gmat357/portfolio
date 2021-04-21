@@ -13,6 +13,7 @@ class skils extends Component {
     render() {
         return (
             <div className="skils_container">
+                <h3 className="title">제가 사용할 수 있는 기술입니다.</h3>
             <div className="skils_box">
                 <ul>
                     <li>
