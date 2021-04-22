@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "../main/css/main.css";
-import Skils from '../skils/skils';
 
 class main extends Component {    
 

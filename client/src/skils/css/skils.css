@@ -74,3 +74,46 @@
   font-size: 25px;
   margin: 7px 0;
 }
+
+@media (max-width: 1335px) {
+  .skils_container {
+    width: 100%;
+  }
+  .skils_container .skils_box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .skils_container .skils_box ul {
+    width: 100%;
+  }
+  .skils_container .skils_box ul li {
+    width: 28%;
+  }
+}
+
+@media (max-width: 660px) {
+  .skils_container .skils_box ul {
+    width: 100%;
+  }
+  .skils_container .skils_box ul li {
+    width: 40%;
+  }
+}
+
+@media (max-width: 465px) {
+  .skils_container .skils_box ul {
+    width: 100%;
+  }
+  .skils_container .skils_box ul li {
+    width: 50%;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 300px) {
+  .skils_container {
+    width: 298px;
+  }
+}

@@ -61,3 +61,57 @@
     }
   }
 } // skils_container
+
+@media (max-width: 1335px) {
+  .skils_container {
+    width: 100%;
+    .skils_box {
+      width: 100%;
+    }
+  } // skils_container
+}
+
+@media (max-width: 920px) {
+  .skils_container {
+    .skils_box {
+      ul {
+        width: 100%;
+        li {
+          width: 28%;
+        }
+      }
+    }
+  } // skils_container
+}
+@media (max-width: 660px) {
+  .skils_container {
+    .skils_box {
+      ul {
+        width: 100%;
+        li {
+          width: 40%;
+        }
+      }
+    }
+  } // skils_container
+}
+
+@media (max-width: 465px) {
+  .skils_container {
+    .skils_box {
+      ul {
+        width: 100%;
+        li {
+          width: 50%;
+          margin: 5px;
+        }
+      }
+    }
+  } // skils_container
+}
+
+@media (max-width: 300px) {
+  .skils_container {
+    width: 298px;
+  } // skils_container
+}

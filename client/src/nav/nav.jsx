@@ -5,7 +5,7 @@ class nav extends Component {
     componentDidMount(){
         const script = document.createElement("script");
         script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
-        script.async = true;
+        script.async = false;
         document.head.appendChild(script);
     }
 

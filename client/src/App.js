@@ -13,6 +13,9 @@ import {
 
 import React, { Component } from 'react';
 
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
+
 class App extends Component {
 
   render() {
